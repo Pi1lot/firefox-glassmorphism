@@ -1,0 +1,16 @@
+@-moz-document url("about:newtab"), url("about:home") {
+
+  .search-wrapper .search-handoff-button,
+  .search-wrapper .search-inner-wrapper,
+  .search-wrapper input {
+    background-color: rgba(255, 255, 255, 0.1) !important;
+
+    backdrop-filter: blur(4px) saturate(120%) !important;
+    border-radius: 12px !important;
+  }
+
+    .shortcuts-refresh .top-site-outer .tile {
+    background: rgba(255, 255, 255, 0.2) !important;
+    backdrop-filter: blur(4px) saturate(120%) !important;
+  }
+}
